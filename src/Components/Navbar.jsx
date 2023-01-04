@@ -12,7 +12,7 @@ const Navbar = () => {
 
     let Count = 0;
     return (
-        <navbar className={Classes.Navbar}>
+        <nav className={Classes.Navbar}>
             <ul className={Classes.Utility}>  
                 <li className={Classes.Uitems1}>{Currency}</li>
                 <li className={Classes.Uitems2}>{Search}</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </li>
             </ul>
 
-        </navbar>
+        </nav>
     );
 }
 export default Navbar;

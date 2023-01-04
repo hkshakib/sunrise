@@ -1,11 +1,12 @@
 import '../Styles/App.css'
 import WebBody from '../Components/WebBody.jsx'
+import Home from "./Home.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <WebBody/>
-    </div>
+    <WebBody>
+      <Home/>
+    </WebBody>
   );
 }
 

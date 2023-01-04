@@ -1,0 +1,38 @@
+.SecondShowRoom {
+    display: flex;
+}
+
+.ShopNowBtn,
+.PhotoCollage {
+    flex-basis: 50%;
+}
+
+.PhotoCollage {
+    height: 800px;
+    background: url("../Media/Images/slide2.jpg");
+}
+
+.ShopNowBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btn {
+    display: flex;
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin: 600px 400px 0 0;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    letter-spacing: 1.88px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 2.05rem 12px;
+    cursor: pointer;
+}

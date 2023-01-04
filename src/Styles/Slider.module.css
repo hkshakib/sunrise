@@ -1,0 +1,36 @@
+.Slider{
+    height: 100vh;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+.ImageSlider {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.PrevButton {
+
+}
+
+.ShopNowBtn {
+    position: relative;
+    top: -100px;
+    left: 200px;
+    max-width: 320px;
+    min-height: 48px;
+    min-width: 200px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 16px 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    letter-spacing: 1.88px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
