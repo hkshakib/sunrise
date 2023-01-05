@@ -8,8 +8,9 @@ const Forms = () => {
             <div className={Classes.JoinUs}>
                 <span className={Classes.JoinText}>Join Us</span>
                 <span className={Classes.MiniText}>
-                    Sign up to our newsletter for 15% off your first order and
-                    exclusive access to our our sales and latest collections!
+                    Sign up to our newsletter for 15% off your first order and<br/>
+                    exclusive access to our our sales and<br/> 
+                    latest collections!
                 </span>
             </div>
 
@@ -39,7 +40,18 @@ const Forms = () => {
 
             </div>
 
-            <div className={Classes.Birthday}></div>
+            <div className={Classes.Birthday}>
+                <div className={Classes.BirthdayTitle}>
+                    <span>Your Birthday (for a special birthday treat)</span>
+                </div>
+                <div className={Classes.Times}>
+                    <input type="date" placeholder="DAY"/>
+                    <input type="month" placeholder="MONTH"/>
+                </div>
+                <div className={Classes.SubmitBtn}>
+                    <button>SUBMIT</button>
+                </div>
+            </div>
         </section>
     );
 }
