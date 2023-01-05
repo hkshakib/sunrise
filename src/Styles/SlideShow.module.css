@@ -1,0 +1,16 @@
+.SlideShow {
+    display: flex;
+}
+
+.Image{
+    flex-basis: 33.33%;
+    /* border: 1px solid blue; */
+    /* width: 400px;
+    height: 700px; */
+}
+
+.Image img{
+    width: 635px;
+    height: 598px;
+    cursor: pointer;
+}

@@ -4,6 +4,10 @@ import AutoSlider from "./AutoSLider";
 import ShowRoom from "./ShowRoom";
 import BigShowRoom from "./BigShowRoom";
 import SecondShowRoom from "./SecondShowRoom";
+import SlideShow from "./SlideShow";
+import CompanyName from "./CompanyName";
+import Banner from "./Banner";
+import Forms from "./Forms";
 
 function Home(){
     return (
@@ -13,6 +17,13 @@ function Home(){
             <ShowRoom/>
             <BigShowRoom/>
             <SecondShowRoom/>
+            <CompanyName>
+                <span>@SUNSHINE</span>
+            </CompanyName>
+            <SlideShow/>
+            <CompanyName/>
+            <Banner/>
+            <Forms/>
         </>
     )
 }

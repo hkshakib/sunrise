@@ -1,0 +1,11 @@
+.CompanyName {
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.CompanyName span {
+    margin: 51px 0 0 230px;
+    font-size: .875rem;
+    letter-spacing: 2.19px;
+}

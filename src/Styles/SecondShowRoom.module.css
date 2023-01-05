@@ -9,9 +9,13 @@
 
 .PhotoCollage {
     height: 800px;
-    background: url("../Media/Images/slide2.jpg");
+    /* background: url("../Media/Images/slide2.jpg"); */
 }
 
+.PhotoCollage img {
+    height: 800px;
+    width: 952px;
+}
 .ShopNowBtn {
     display: flex;
     justify-content: center;
