@@ -8,6 +8,7 @@ import SlideShow from "./SlideShow";
 import CompanyName from "./CompanyName";
 import Banner from "./Banner";
 import Forms from "./Forms";
+import Footer from "./Footer";
 
 function Home(){
     return (
@@ -24,6 +25,7 @@ function Home(){
             <CompanyName/>
             <Banner/>
             <Forms/>
+            <Footer/>
         </>
     )
 }

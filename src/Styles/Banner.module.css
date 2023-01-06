@@ -1,5 +1,6 @@
 .Banner {
     display: flex;
+    padding: 4.5rem 0;
 }
 .Image img{
     flex-basis: 100%;
