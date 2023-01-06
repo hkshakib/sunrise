@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  --primary-bg: #fff;
+}
 .App {
   display: flex;
   flex-basis: 100%;

@@ -2,10 +2,8 @@
     height: 80px;
     background: #263746;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     color: #fff;
-    padding: 4.5rem 0;
 }
 
 .AutoSlider span {

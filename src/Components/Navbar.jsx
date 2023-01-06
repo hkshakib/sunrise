@@ -1,12 +1,11 @@
 import React from "react";
-import Classes from "../Styles/Navbar.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-import { faAngleDown, faSearch, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import Classes from "../Styles/Navbar.module.css";
+import DropDown from "./DropDown";
 
 const Currency = <FontAwesomeIcon icon={faDollarSign} />
 const Search = <FontAwesomeIcon icon={faSearch} />
-const BottomArrow = <FontAwesomeIcon icon={faAngleDown} />
 
 const Navbar = () => {
 
@@ -19,7 +18,7 @@ const Navbar = () => {
             </ul>
 
             <ul className={Classes.LeftItems}>
-                <li className={Classes.Litems1}>SHOP {BottomArrow}</li>
+                <li className={Classes.Litems1}><DropDown text="SHOP"/></li>
                 <li className={Classes.Litems2}>OUR STORY</li>
                 <li className={Classes.Litems3}>SUSTAINABLE SOLUTIONS</li>
             </ul>
