@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Classes from "../Styles/Shop.module.css";
 function Shop() {
   return (
-    <div>Shop</div>
+    <div className={Classes.Shop}><span>Hello World</span></div>
   )
 }
 

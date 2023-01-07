@@ -1,13 +1,30 @@
 .SlideShow {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Image{
-    flex-basis: 33.33%;
+.Image1, .Image2, .Image3 {
+    flex-basis: 34%;
+    display: flex;
+}
+.Image1 img{
+    flex-basis: 100%;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
 }
 
-.Image img{
-    width: 635px;
-    height: 598px;
+.Image2 img{
+    flex-basis: 100%;
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
+
+.Image3 img{
+    flex-basis: 100%;
+    width: 100%;
+    height: 600px;
     cursor: pointer;
 }
