@@ -1,6 +1,6 @@
 .Footer {
     display: flex;
-    height: 60vh;
+    height: 50vh;
     background: #FBF9F0;
     justify-content: center;
 }
@@ -13,13 +13,15 @@
 .Legal {
     flex-basis: 15%;
     display: flex;
+    margin-top: 100px;
 }
 
 .Content {
     flex-direction: column;
 }
 
-.Shop, .SocialLinks {
+.Shop,
+.SocialLinks {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
@@ -31,12 +33,15 @@
     letter-spacing: 2.19px;
 }
 
-#ShopLink1, #ShopLink2, #ShopLink3 {
+#ShopLink1,
+#ShopLink2,
+#ShopLink3 {
     flex-basis: 10%;
     font-size: .75rem;
     font-style: italic;
     cursor: pointer;
 }
+
 .SetFooterItems {
     flex-basis: 100%;
     display: flex;
@@ -48,16 +53,20 @@
     display: flex;
     letter-spacing: 2.19px;
 }
-#FooterLink, #FooterLink{
+
+#FooterLink,
+#FooterLink {
     flex-basis: 5%;
     font-size: .75rem;
     font-style: italic;
     cursor: pointer;
 }
+
 .SocialLinks {
     flex-direction: column;
 }
-.Icons{
+
+.Icons {
     flex-basis: 20%;
     display: flex;
 }
@@ -74,7 +83,7 @@
     margin-top: 10px;
 }
 
-.MadeText{
+.MadeText {
     flex-basis: 20%;
     display: flex;
     letter-spacing: 2.19px;

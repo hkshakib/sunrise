@@ -34,6 +34,8 @@
     align-items: center;
     cursor: pointer;
     font-weight: 500;
+    text-decoration: none;
+    color: #000;
 }
 
 .RightItems {
@@ -72,14 +74,19 @@
 
 .Litems1 {
     flex-basis: 13%;
+    color: #000;
 }
 
 .Litems2 {
     flex-basis: 16%;
+    text-decoration: none;
+    color: #000;
 }
 
 .Litems3 {
     flex-basis: 35%;
+    text-decoration: none;
+    color: #000;
 }
 
 .Ritems {

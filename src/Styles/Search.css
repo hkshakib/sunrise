@@ -1,0 +1,86 @@
+@keyframes translateX {
+    0% {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    80% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.Search.active {
+    opacity: 1;
+    visibility: visible;
+    transform-origin: top center;
+    animation: translateX 300ms ease-in-out forwards;
+    transition: 500ms ease;
+    flex-basis: 100%;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    top: 64px;
+}
+
+.Search.inactive {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 500ms ease;
+}
+
+.SearchContainer {
+    flex-basis: 100%;
+    display: flex;
+    width: 95%;
+    height: 100px;
+    background: #263746;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBox {
+    flex-basis: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchInput {
+    flex-basis: 20%;
+    height: 50px;
+    width: 300px;
+    background: #263746;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input[type=text]:focus {
+    outline: none;
+    caret-color: #fff;
+}
+
+.SearchBox span {
+    position: absolute;
+    right: 788px;
+    bottom: 40px;
+    color: #fff;
+}
+
+.ExitBox {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExitBox span {
+    color: #fff;
+}
