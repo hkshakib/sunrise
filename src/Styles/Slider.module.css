@@ -1,4 +1,4 @@
-.Slider{
+.Slider {
     height: 100vh;
     display: flex;
     flex-basis: auto;
@@ -10,23 +10,80 @@
     flex-basis: 100%;
 }
 
+.Btn {
+    flex-basis: auto;
+    display: flex;
+}
+
 .ShopNowBtn {
-    position: relative;
-    top: -100px;
+    position: absolute;
+    bottom: 30px;
     left: 200px;
     max-width: 320px;
     min-height: 48px;
-    min-width: 200px;
+    min-width: 100px;
     margin-right: 0;
     margin-left: 0;
     padding: 16px 40px;
     border: 1px solid #fff;
     background-color: transparent;
     color: #fff;
+    cursor: pointer;
     font-size: .75rem;
     line-height: 1rem;
     text-align: center;
     letter-spacing: 1.88px;
     text-decoration: none;
     text-transform: uppercase;
+    z-index: 9999;
+}
+
+.Title {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    font-size: 80px;
+    font-weight: 300;
+    color: #fff;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.PrevBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    background: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, .15);
+
+}
+
+.NextBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50px;
+    background: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .15);
+}
+
+.PrevBtn span {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    color: #fff;
+}
+
+.NextBtn span {
+    display: inline-block;
+    transform: rotate(90deg);
+    color: #fff;
+    font-size: 16px;
 }

@@ -2,10 +2,24 @@
     height: 80px;
     background: #263746;
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #fff;
+    
 }
 
 .AutoSlider span {
+    display: flex;
     margin-left: 90px;
+    animation: Scroll 25s infinite linear;
+}
+
+@keyframes Scroll {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-1000px);
+    }
 }
