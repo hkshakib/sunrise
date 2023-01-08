@@ -10,6 +10,7 @@ const AutoSlider = () => {
            <span>UP TO 30% OFF IN OUR SALE</span>
            <span>UP TO 30% OFF IN OUR SALE</span>
            <span>UP TO 30% OFF IN OUR SALE</span>
+           <span>UP TO 30% OFF IN OUR SALE</span>
         </div>
     );
 }

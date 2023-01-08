@@ -11,7 +11,7 @@
 .AutoSlider span {
     display: flex;
     margin-left: 90px;
-    animation: Scroll 25s infinite linear;
+    animation: Scroll 45s infinite linear;
 }
 
 @keyframes Scroll {

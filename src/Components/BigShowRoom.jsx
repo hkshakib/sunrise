@@ -5,13 +5,17 @@ const BigShowRoom = () => {
     return (
         <section className={Classes.BigShowRoom}>
             <div className={Classes.ShopNowBtn}>
-                <span className={Classes.Title}></span>
-                <span className={Classes.SecondTitle}></span>
-                <button className={Classes.Btn}> Shop Now </button>
+                <div className={Classes.TextContainer}>
+                    <span className={Classes.Title}>CHOOSE THE PERFECT STOCKING FILLER</span>
+                    <span className={Classes.SecondTitle}>See our gift selection</span>
+                </div>
+                <div className={Classes.BtnContainer}>
+                    <button className={Classes.Btn}> Shop Now </button>
+                </div>
             </div>
             <div className={Classes.PhotoCollage}>
-
             </div>
+
         </section>
     );
 }

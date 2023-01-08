@@ -2,22 +2,44 @@
     display: flex;
 }
 
-.ShopNowBtn,
 .PhotoCollage {
     flex-basis: 50%;
-    margin-top: 30px;
-
-}
-
-.PhotoCollage {
     height: 800px;
+    margin-top: 30px;
     background: url("../Media/Images/slide2.jpg");
 }
 
 .ShopNowBtn {
+    flex-basis: 50%;
     display: flex;
-    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.TextContainer{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.Title, .SecondTitle {
+    flex-basis: 50%;
+}
+
+.Title{
+    padding: 500px 400px 0 0;
+    letter-spacing: 2.19px;
+}
+
+.SecondTitle{
+    padding: 10px 440px 0 0;
+    font-size: 32px;
+    letter-spacing: 2.19px;
+    font-style: italic;
+}
+
+.BtnContainer{
+    flex-basis: 10%;
+    display: flex;
 }
 
 .Btn {
@@ -28,7 +50,6 @@
     background: transparent;
     justify-content: center;
     align-items: center;
-    margin: 600px 400px 0 0;
     font-size: .75rem;
     line-height: 1rem;
     text-align: center;
@@ -37,4 +58,5 @@
     text-transform: uppercase;
     padding: 14px 2.05rem 12px;
     cursor: pointer;
+    margin-left: 95px;
 }
